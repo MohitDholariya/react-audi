@@ -1,0 +1,277 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+/* Section 1 */
+ 
+.bg-menubar{
+    background-color: #393838;
+    margin:0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo-width{
+    width: 150px;
+    height: auto;
+}
+
+.menu-button{
+    border: none;
+    background-color: rgb(248, 0, 0);
+    color: white;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.menu-button:hover{
+    background-color: rgb(210, 111, 111) ;
+}
+.nav-hover:hover{
+    color: #fff;
+    transition: all .4s;
+}
+@media(max-width:1200px){
+    .logo-width{
+        width: 125px;
+    }
+    .menu-button{
+        width: 150px;
+    }
+}
+
+@media(max-width:992px){
+        .hide{
+            display: none;
+        }
+        .menu-ml{
+            margin-left: 0;
+        }
+}
+
+/* Section 1 End */
+/* Section 2 */
+
+.sec2-div{
+    width: 100%;
+}
+
+/* Section 2 End */
+/* Section 3 */
+
+.sec3-bg{
+    background-color: black;
+    width: 100%;
+}
+
+.sec3-div1{
+    margin-left: 12.5rem;
+    width: 100%;
+}
+.sec3-img{
+    width: 50%;
+}
+.sec3-div2{
+    margin-top: 7.5rem;
+    margin-left: -12.5rem;
+}
+
+.sec3-button{
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.sec3-button:hover{
+    color:black;
+    background-color: white;
+}
+@media(max-width:1200px){
+    .sec3-div1{
+        margin-left: 7.5rem;
+        width: 100%;
+    }
+    .sec3-img{
+        width: 50%;
+    }
+    .sec3-div2{
+        margin-top: 5rem;
+        margin-left: -10.5rem;
+    }
+}
+@media(max-width:992px){
+    .sec3-div1{
+        margin-left: 5rem;
+        width: 100%;
+    }
+    .sec3-img{
+        width: 50%;
+    }
+    .sec3-div2{
+        margin-top: 2.5rem;
+        margin-left: -9.5rem;
+    }
+}
+@media(max-width:768px){
+    .sec3-div1{
+        margin-left: 5rem;
+        width: 100%;
+    }
+    .sec3-img{
+        width: 75%;
+    }
+    .sec3-div2{
+        margin-top: 2.5rem;
+        margin-left: 5rem;
+    }
+}
+@media(max-width:576px){
+    .sec3-div1{
+        margin-left: 2.5rem;
+        width: 100%;
+    }
+    .sec3-div2{
+        margin-bottom: 2rem;
+    }
+}
+
+/* Section 3 End */
+/* Section 4 */
+
+.sec4-bg{
+    background-color: #e6e7e9;
+}
+
+.sec4-div1{
+    width: 75%;
+    margin-top: 7.5rem;
+    margin-left: 12.5rem;
+}
+.sec4-img{
+    width: 75%;
+}
+@media(max-width:1200px){
+    .sec4-div1{
+        width: 70%;
+        margin-top: 7rem;
+        margin-left: 10.5rem;
+    }
+    .sec4-img{
+        margin-top: 2.5rem;
+        width: 75%;
+        /* margin-right: 5rem; */
+    }
+}
+@media(max-width:992px){
+    .sec4-div1{
+        width: 65%;
+        margin-top: 4rem;
+        margin-left: 8.5rem;
+    }
+    .sec4-img{
+        margin-top: 2.5rem;
+        width: 350px;
+    }
+}
+@media(max-width:768px){
+    .sec4-div1{
+        width: 65%;
+        margin-top: 4rem;
+        margin-left: 7.5rem;
+    }
+    .sec4-img{
+        margin-top: 2.5rem;
+        margin-left: 6rem;
+        width: 500px;
+    }
+}
+@media(max-width:576px){
+    .sec4-div1{
+        width: 65%;
+        margin-top: 4rem;
+        margin-left: 5.5rem;
+    }
+    .sec4-img{
+        margin: 1rem 0 2rem 3rem;
+        width: 250px;
+    }
+}
+
+/* Section 4 End */
+/* Section 5 */
+
+.sec5-mlr{
+    margin: 0 10rem;
+}
+.sec5-div1{
+    margin-top: 7.5rem;
+}
+.sec5-button{
+    padding: .5rem 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.sec5-img{
+    width: 100%;
+}
+
+@media(max-width:1200px) {
+    .sec5-mlr{
+        margin: 0 3.5rem;
+    }
+    .sec5-div1{
+        margin-top: 7.5rem;
+    }
+    .sec5-img{
+        width: 100%;
+    }    
+}
+@media(max-width:992px) {
+    .sec5-mlr{
+        margin: 0 3.5rem;
+    }
+    .sec5-div1{
+        margin-top: 4rem;
+    }
+    .sec5-img{
+        width: 100%;
+    }    
+}
+@media(max-width:768px) {
+    .sec5-mlr{
+        margin: 0 3.5rem;
+    }
+    .sec5-div1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .sec5-img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }    
+}
+
+/* Section 5 End */
+/* Section 6 */
+
+.sec6-mlr{
+    margin: 0 10rem;
+}
+
+/* Section 6 End */
+/* Section 7 */
+
+.sec7-div{
+    padding: 1rem 7.5rem 0;
+}
+.sec7-icon{
+    font-size: 40px;
+    padding-right: 20px;
+}

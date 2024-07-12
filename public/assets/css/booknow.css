@@ -1,0 +1,145 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.va{
+    vertical-align: middle;
+}
+
+.model-color{
+    color: rgb(148, 148, 148);
+}
+.txt-color{
+    color: #a90f04;
+}
+
+.div-bb{
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+/* Section 1 */
+ 
+.bg-menubar{
+    background-color: #393838;
+    margin:0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo-width{
+    width: 150px;
+}
+
+.menu-button{
+    border: none;
+    background-color: rgb(248, 0, 0);
+    color: white;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.menu-button:hover{
+    background-color: rgb(210, 111, 111) ;
+}
+.nav-hover:hover{
+    color: #fff;
+    transition: all .4s;
+}
+@media(max-width:1200px){
+    .logo-width{
+        width: 125px;
+    }
+    .menu-button{
+        width: 150px;
+    }
+}
+
+@media(max-width:992px){
+        .hide{
+            display: none;
+        }
+        .menu-ml{
+            margin-left: 0;
+        }
+}
+
+/* Section 1 End */
+/* Section 2 */
+
+.sec2-button{
+    background-color: #000;
+    color: #fff;
+    border:1px solid #000;
+    padding: 5px 15px;
+}
+
+.sec2-bg{
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    padding: 5px;
+}
+.hr{
+    background-color: rgb(231, 231, 231);
+}
+
+/* Section 2 End */
+/* Section 3 */
+
+.cart1{
+    border: 1px solid rgb(237, 237, 237) ;
+    box-shadow: 0px 0px 5px rgb(237, 237, 237) ;
+    height: 100%;
+}
+.cart2{
+    border: 1px solid rgb(237, 237, 237) ;
+    box-shadow: 0px 0px 5px rgb(237, 237, 237) ;
+    height: 100%;
+}
+.sec3-button1{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    width: 100%;
+    padding: 5px 0px;
+}
+.sec3-button2{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    width: 100%;
+    padding: 5px 0px;
+}
+.sec3-button1:hover{
+    background-color: #373737;
+}
+.sec3-button2:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+@media(max-width:992px){
+    /* .cart1-mt{
+        margin-top: 30px;
+    } */
+    .cart2-mt{
+        margin-top: 30px !important;
+    }
+}
+
+
+/* Section 3 End */
+/* Section 4 */
+
+.sec4-div{
+    padding: 1rem 7.5rem 0;
+}
+.sec4-icon{
+    font-size: 40px;
+    padding-right: 20px;
+}

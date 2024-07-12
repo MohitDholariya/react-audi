@@ -1,0 +1,143 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+/* Section 1 */
+ 
+.bg-menubar{
+    background-color: #393838;
+    margin:0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo-width{
+    width: 150px;
+}
+
+.menu-button{
+    border: none;
+    background-color: rgb(248, 0, 0);
+    color: white;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.menu-button:hover{
+    background-color: rgb(210, 111, 111) ;
+}
+.nav-hover:hover{
+    color: #fff;
+    transition: all .4s;
+}
+
+@media(max-width:1200px){
+    .logo-width{
+        width: 125px;
+    }
+    .menu-button{
+        width: 150px;
+    }
+}
+
+@media(max-width:992px){
+        .hide{
+            display: none;
+        }
+        .menu-ml{
+            margin-left: 0;
+        }
+}
+
+/* Section 1 End */
+/* Section 2 */
+
+.sec2-div{
+    width: 100%;
+}
+
+/* Section 2 End */
+/* Section 3 */
+#slider-container {
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    margin-right: 10px; /* Adjust the margin based on your design */
+}
+
+.card-swiper{
+    width: 16rem;
+    height: 375px !important;
+}
+
+@media(max-width:1200px){
+    .card-swiper{
+        width: 20rem ;
+        height: 350px !important;
+    }
+    .card-swiper img {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media(max-width:992px){
+    .card-swiper{
+        width: 16rem ;
+        height: 325px !important;
+    }
+    .card-swiper img {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media(max-width:768px){
+    .card-swiper{
+        width: 18.5rem ;
+        height: 325px !important;
+    }
+    .card-swiper img {
+        width: 70%;
+        margin: auto;
+    }
+}
+@media(max-width:576px){
+    .card-swiper{
+        width: 25rem ;
+        height: 325px !important;
+        margin:auto;
+    }
+    .card-swiper img {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+
+
+/* Section 3 End */
+/* Section 4 */
+
+
+/* Section 4 End */
+/* Section 5 */
+
+.sec5-div{
+    padding: 1rem 7.5rem 0;
+}
+.sec5-icon{
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+

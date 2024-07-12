@@ -1,0 +1,112 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+    cursor: pointer;
+}
+
+/* Section 1 */
+ 
+.bg-menubar{
+    background-color: #393838;
+    margin:0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo-width{
+    width: 150px;
+}
+.nav-hover:hover{
+    color: #fff;
+    transition: all .4s;
+}
+
+@media(max-width:1200px){
+    .logo-width{
+        width: 125px;
+    }
+    .menu-button{
+        width: 150px;
+    }
+}
+
+@media(max-width:992px){
+        .hide{
+            display: none;
+        }
+        .menu-ml{
+            margin-left: 0;
+        }
+}
+/* Section 1 End */
+/* Section 2 */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/* Section 2 End */
+/* Section 3 */
+.img-div{
+    position: relative;
+    overflow: hidden;
+}
+.car-div{
+    position: absolute;
+    padding-left: 20px;
+    bottom: 0%;
+    left: 0%;
+}
+.img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.sec3-button1{
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(248, 0, 0);
+    color: white;
+    border-radius: 1px;
+}
+.sec3-button1:hover{
+    background-color: rgb(210, 111, 111) ;
+}
+.sec3-button2{
+    padding: 5px 20px;
+    border: 1px solid rgb(248, 0, 0);
+    background-color: black;
+    color: rgb(248, 0, 0);
+    border-radius: 1px;
+}
+.sec3-button2:hover{
+    padding: 5px 20px;
+    border: 1px solid rgb(248, 0, 0);
+    background-color: rgb(248, 0, 0);
+    color: white;
+    border-radius: 1px;
+}
+
+.sec3-span{
+    text-decoration: underline;
+}
